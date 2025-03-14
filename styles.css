@@ -7,7 +7,9 @@ body {
   font-family: "Inconsolata", monospace;
   background-image: url(./images/background-desktop.png);
 }
-
+body p {
+  color: white;
+}
 .title {
   margin-top: 20px;
 }

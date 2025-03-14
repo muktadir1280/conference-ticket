@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>Conference Ticket</title>
 
 </head>
@@ -33,17 +34,27 @@
         </label>
         <input id="file-upload" type="file" class="hidden">
       </div>
-      <p id="informartion" class="absolute"><img src="./images/icon-info.svg" alt=""></p>
-      <p class="text-gray-400 mt-[12px] mr-[125px] text-sm">Upload your photo (JPG or PNG, max size: 500KB)</p>
+      <div class="full-name mt-5">
+        <p>Full Name</p>
+        <input id="full-name" class="mt-2 w-[500px] rounded-lg opacity-55 p-2" type="text">
+      </div>
+
+      <div class="email-address mt-5">
+        <p>Email Address</p>
+        <input class="mt-2 w-[500px] rounded-lg opacity-55 p-2" type="text" placeholder="example@email.com">
+      </div>
+
+      <div class="github mt-5">
+        <p>Github Username</p>
+        <input class="mt-2 w-[500px] rounded-lg opacity-55 p-2" type="text" placeholder="@yourusername">
+      </div>
+      <div>
+        <button class="mt-4 w-[500px] rounded-lg bg-[tomato] p-2 font-bold"><a href="./ticket.html">Generate My
+            Ticket</a></button>
+      </div>
+
     </form>
   </div>
-
-
-
-
-
-  <script src="https://cdn.tailwindcss.com"></script>
-
 </body>
 
 </html>
