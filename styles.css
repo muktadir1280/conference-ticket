@@ -14,3 +14,13 @@ body {
 .title h2 {
   color: white;
 }
+#avatar {
+  position: absolute;
+  left: 390px;
+  top: -22px;
+}
+#informartion {
+  position: absolute;
+  left: 390px;
+  top: 135px;
+}
