@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inconsolata", monospace;
+  background-image: url(./images/background-desktop.png);
+}
+
+.title {
+  margin-top: 20px;
+}
+.title h2 {
+  color: white;
+}
